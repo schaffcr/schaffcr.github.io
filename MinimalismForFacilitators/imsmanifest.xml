@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<manifest identifier="MmVa7Uc6BaH5WVEl8rNKr7ixgwFxpTRnMKWLoD5T" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Minimalism for Facilitators</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Minimalism for Facilitators</title>
+        <adlcp:datafromlms>eyJjcHYiOiJNS1dMb0Q1VCIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/RobotoSlab-Bold.woff" />
+<file href="scormcontent/lib/fonts/RobotoSlab-Regular.woff" />
+<file href="scormcontent/lib/fonts/RobotoSlab-Light.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Black.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Italic.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Bold.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Regular.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/assets/vp1OYgUAdvmojQl8_small_1643148490.jpg" />
+<file href="scormcontent/assets/yGUzuu970Yz1VgID_small.png" />
+<file href="scormcontent/assets/yxCtNGs7e-ll6AMj_transcoded-2YJecgU6j-7GAxeF-Minimalism%20for%20Facilitators_Intro-00001.png" />
+<file href="scormcontent/assets/pa_8puezhg4e488L_transcoded-2YJecgU6j-7GAxeF-Minimalism%20for%20Facilitators_Intro.mp4" />
+<file href="scormcontent/assets/XjpZRg5z9UuDKu1y_a8HkQ5jIf0Pia-UL-Minimalism%20for%20Facilitators_Intro.vtt" />
+<file href="scormcontent/assets/hQswWKeZOFtY9W-V_transcoded-IW3fziEw8Ua8-XaB-Minimalism%20for%20Facilitators_Focus%20on%20User-00001.png" />
+<file href="scormcontent/assets/CrqfKKQefJs9Ef8c_transcoded-IW3fziEw8Ua8-XaB-Minimalism%20for%20Facilitators_Focus%20on%20User.mp4" />
+<file href="scormcontent/assets/uRmr91DdnfbSCNtC_yJojieS8z3VEpu68-Minimalism%20for%20Facilitators_Focus%20on%20User.vtt" />
+<file href="scormcontent/assets/49ZL13REqeuG9zUC_DWllQfF-vX2a3ODf.jpg" />
+<file href="scormcontent/assets/CiNIAWCFe-d6JB___transcoded-PknB0e6-gaR2rxtV-Minimalism%20for%20Facilitators_Take%20Action-Oriented-00001.png" />
+<file href="scormcontent/assets/23P4U6-T_XzvZPlm_transcoded-PknB0e6-gaR2rxtV-Minimalism%20for%20Facilitators_Take%20Action-Oriented.mp4" />
+<file href="scormcontent/assets/lZkakhmuETZGSMob_v1F2vzItSEI5jgBJ-Minimalism%20for%20Facilitators_Take%20Action-Oriented.vtt" />
+<file href="scormcontent/assets/0dE94dbYuH3sSqDc_DztwG8koxsv06mke.jpg" />
+<file href="scormcontent/assets/hmb470Z1BZbhR6rN_transcoded-sS6Ga6YnmHQaVKzT-Minimalism%20for%20Facilitators_Summary-00001.png" />
+<file href="scormcontent/assets/TrPAKSOxNLPCsmaU_transcoded-sS6Ga6YnmHQaVKzT-Minimalism%20for%20Facilitators_Summary.mp4" />
+<file href="scormcontent/assets/rqRGbNerbbaZYVoB_dHyIuPYOcGeGfA0G-Minimalism%20for%20Facilitators_Summary.vtt" />
+<file href="scormcontent/assets/DNqQUWzYV30OfTvs_K87ESUzU0HD8yMxj.png" />
+<file href="scormcontent/assets/wqwhclYJZ7fRHYFG_Lz8g_3r9UHDYbiXa.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
